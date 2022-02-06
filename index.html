@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forky salòn de eventos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="registrar.php">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <!-- <div class="contenedor_loader">
+        <div class="loader"></div>
+    </div> -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#"><img src="img/FORKY.PNG.1000.png" alt=""></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Nosotros</a></li>
+                <li><a href="#post" class="menu-btn">Eventos</a></li>
+                <li><a href="#photos" class="menu-btn">Fotos</a></li>
+                <li><a href="#catering" class="menu-btn">Catering</a></li>
+                <li><a href="#contact" class="menu-btn">Contácto</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Forky Eventos</div>
+                <div class="text-2">Disfruta el momento <br> y recordalo por siempre.</div>
+                <div class="text-3">Estilo, creatividad y diversión</div>
+                <a class="btn-home" href="#about">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </div>
+        </div>
+        <div class="wsp">
+            <a class="btn-wsp" target="_blanck" href="https://api.whatsapp.com/send?phone=+54 9 11 59134586"> <i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- about-gallery section start -->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Acerca de nosotros</h2>
+            <h3>La experiencia mas épica que tendras</h3>
+            <div class="about-content"> 
+                <p>Nuestro salón multieventos, es un espacio mágico, inolvidable y confortable, donde te sentirás como en un sueño y vivirás grandes alegrías y momentos que atesorarás en tus recuerdos. El equipo de Forky Eventos, basado en la la aptitud, buena disposición, el compromiso y la responsabilidad, trabajará en tu evento siguiendo 5 pilares fundamentales: Creatividad, Dedicación, Coordinación, Alegría y Estilo.<br><br>Estructura de pelotero, Básquet, plaza blanda, mini cancha de futbol, juegos de mesa, inflable, servicio de mesa, animadoras, ambientación (sonido, luces y proyector), menú infantil y para adultos.</p>
+            </div>
+        </div>
+        <section class="galeria" id="nuestro-espacio">
+            <a href="#image1">
+                <img src="img/salon1.jpeg" alt="">
+            </a>
+            <a href="#image2">
+                <img src="img/salon5.jpeg" alt="">
+            </a>
+            <a href="#image3">
+                <img src="img/salon6.jpeg" alt="">
+            </a>
+            <a href="#image4">
+                <img src="img/salon8.jpeg" alt="">
+            </a>
+            <a href="#image5">
+                <img src="img/salon7.jpeg" alt="">
+            </a>
+            <a href="#image6">
+                <img src="img/salon4.jpeg" alt="">
+            </a>
+        </section>
+
+        <article class="light-box" id="image1">
+            <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon1.jpeg" alt="">
+            <a href="#image2" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon5.jpeg" alt="">
+            <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon6.jpeg" alt="">
+            <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon8.jpeg" alt="">
+            <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image5">
+            <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon7.jpeg" alt="">
+            <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image6">
+            <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+            <img src="img/salon4.jpeg" alt="">
+            <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+    </section>
+
+    <!-- services section start -->
+
+    <section class="post-list" id="post">
+        <div class="max-width">
+            <h2 class="title">Nuestros eventos</h2>
+            <h3>Festeja a lo grande en nuestro salón</h3>
+            <div class="content">
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-1"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>Cumpleaños infantiles</h2>
+                        <p class="description">Diversión, juegos y muchísimo humor, para que tu fiesta sea la mejor!! Ese será el corazón de la fiesta, que esté llena de alegría y emoción. ¡Humor, más humor, juegos y diversión!<br><br><br></p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-4"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>Bautismo | 1° añito</h2>
+                        <p class="description">Vení a Forky con tu familia y tus amigos, para vivir la pura emoción de ese primer añito, y que los recuerdos del cumpleaños sean tan únicos e inolvidables como los de los primeros 365 días. El festejo de 1 año es festejar la gran alegria de la vida y de todos los festejos que vamos a compartir</p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-5"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>Comunión</h2>
+                        <p class="description">En Forky, la celebración de tu primera comunión estará llena de música y armonía, para honrar tu compromiso religioso en un encuentro familiar donde no faltara la alegria y la diversión en este dia tan especial tomamos el compromiso para que tengas un dia inolvidable</p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-2"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>Egresaditos 5 años</h2>
+                        <p class="description">Llega el final de una etapa llena de juegos, alegrías y recuerdos… Te esperamos en Forky, para despedir este momento con un broche de oro, y que puedan recibir la nueva etapa que llegará.<br><br><br></p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-3"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>Egresados 7° grado</h2>
+                        <p class="description">Baile, música, amigos, despedidas y mucha emoción en nuestra disco con sonido, luces y proyector en una fiesta de egresados que cierra una etapa para que los chicos comiencen un camino nuevo.<br><br><br></p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-img-6"></div>
+                    </div>
+                    <div class="post-body">
+                        <h2>15 | 18 Años | Sociales</h2>
+                        <p class="description">Amigos + Familia + Baile + Música + Emoción + Alegría + Color = La fórmula perfecta para la fiesta de tus sueños. Aniversarios, fiestas, reencuentros de secundarios, seminarios profesionales, eventos empresariales, capacitaciones comerciales, y todo lo que para vos sea un motivo de celebración.</p>
+                        <a href="#contact" class="post-link">Saber mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- section photos start -->
+
+    <section class="photos" id="photos">
+        <div class="max-width">
+            <h2 class="title">Fotos</h2>
+            <h3>Ellos ya fueron parte de la experiencia</h3>
+        </div>
+        <div class="galeria-photos" id="photos">
+            <div class="imagen">
+                <img src="img/festejo1.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo2.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo3.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo4.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo5.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo6.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo7.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo8.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo9.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo10.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo11.jpeg" alt="">
+            </div>
+            <div class="imagen">
+                <img src="img/festejo12.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- catering section start -->
+
+    <section class="catering-list" id="catering">
+        <div class="max-width">
+            <h2 class="title">Catering</h2>
+            <h3>Tenemos deliciosas opciones de catering</h3>
+            <div class="cat-content">
+                <div class="option">
+                    <div class="option-header">
+                        <div class="option-img-1"></div>
+                    </div>
+                    <div class="option-body">
+                        <h2>Panchos party</h2>
+                        <p class="descrption">-Snacks.<br>-Entrada fria y caliente.<br>-Empanadas.<br>-Vajilla.<br>-Servilletas y camarera incluidas.</p>
+                    </div>
+                </div>
+                <div class="option-opc">
+                    <div class="option-header">
+                        <div class="option-img-2">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="option-body">
+                        <h2 class="option-title">Si te gustaria otra idea de catering consultanos!</h2>
+                        <a href="#contact" class="post-link">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="option-header">
+                        <div class="option-img-3"></div>
+                    </div>
+                    <div class="option-body">
+                        <h2>Merienda party</h2>
+                        <p class="descrption">-Opciones saladas y dulces.<br>-Café y mate.<br>-jugos.<br>-gaseosas.<br>-Vajilla incluida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- contact section start & social media -->
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contáctame</h2>
+            <h3>Chatea con nosotros de forma directa haciendo click en el icono de whatsApp <br> o cualquieras de nuestros medios de comunicación.</h3>
+            <div class="contact-content">
+                <div class="column right">
+                    <div class="text">Deja tu consulta y te responderemos pronto</div>
+    <!-- Formulario -->
+                    <form method="POST" action="registrar.php" class="form">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="nombre" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="tel" placeholder="telefono">
+                        </div>
+                        <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Dejanos tu consulta ..."></textarea>
+                        </div>
+                        <div class="button">
+                            <button name="button" type="submit">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Dirección</div>
+                                <div class="sub-title">Av. Nicolás Avellaneda 3185 - Virreyes</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="info">
+                                <div class="head">Telefono</div>
+                                <div class="sub-title">11 5913 4586</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">forkysalon@gmail.com</div>
+                            </div>
+                        </div>
+    <!-- social media start -->
+                        <div class="row">
+                            <a href="https://www.facebook.com/Forkysalon-112466436863786" class="facebook"><i class="fab fa-facebook"></i></a>
+                            <div class="info">
+                                <a href="https://www.facebook.com/Forkysalon-112466436863786" class="facebook">Facebook</a>
+                                <div class="sub-title">/forkysalon</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.instagram.com/forkysalon/" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <div class="info">
+                                <a href="https://www.instagram.com/forkysalon/" class="instagram">Instagram</a>
+                                <div class="sub-title">@forkysalon</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map section start -->
+
+    <section class="maps-google">
+        <h2 class="title">Como llegar</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.774359324932!2d-58.56925588502387!3d-34.45787525730242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5369ddeb6b3%3A0xd0f6032daa42e90f!2sForky%20Salon%20de%20Fiestas%20Infantiles!5e0!3m2!1ses!2sar!4v1627230588820!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row-foo">
+                <div class="footer-col-1">
+                    <h3>Metodos de pagos seguros</h3>
+                    <div class="app-logo">
+                        <img src="img/SSl.png">
+                        <img src="img/MP1.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/FORKY.PNG.1000.png">
+                    <p>Enterate de todas las novedades de Forky salón, sus eventos y clientes desde nuestras redes sociales. Celebrá como a vos te gusta, disfrutando de cada detalle diseñado a tu medida. Viví tu fiesta como una verdadera experiencia</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Enlaces útiles</h3>
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=+54 9 11 64279817">Contacto</a></li>
+                        <li><a href="franchises.html">Nosotros</a></li>
+                        <li><a href="index.html#about">Quienes somos</a></li>
+                        <li><a href="reserve.html">Se parte del equipo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Síguenos</h3>
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=+54 9 11 59134586" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                        <li><a href="https://www.instagram.com/forkysalon/?hl=es" class="instagram"><i class="fab fa-instagram"></i> instagram</a></li>
+                        <li><a href="https://www.facebook.com/forkysalon" class="facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="contacto@forkysalon.com">contacto@forkysalon.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="diee">
+        <span>Creado por <a href="https://www.dieeinsaurralde.com/">Diee Insaurralde</a> | <span class="far fa-copyright"></span> Copyright 2021</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
